@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 
   async function analyzeSentiment(inputText) {
-  const apiKey = "AIzaSyCGdXZ2Tt-oVla9anBD-vqLdFVj2BUCx-4";
+  const apiKey = "AIzaSyDnSPa4nt5duYpxKIN3LQssbU3UbBjNEto";
   const { GoogleGenerativeAI } = require("@google/generative-ai");
 
   const genAI = new GoogleGenerativeAI(apiKey);
